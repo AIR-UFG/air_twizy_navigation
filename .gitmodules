@@ -1,0 +1,16 @@
+[submodule "ros_packages/navigation2_tutorials"]
+	path = ros_packages/navigation2_tutorials
+	url = https://github.com/AIR-UFG/navigation2_tutorials.git
+	branch = navigation_sim
+[submodule "ros_packages/navigation2"]
+	path = ros_packages/navigation2
+	url = https://github.com/AIR-UFG/navigation2.git
+	branch = nav_costmap_debug
+[submodule "ros_packages/vehicle_interface_packages"]
+	path = ros_packages/vehicle_interface_packages
+	url = https://github.com/AIR-UFG/vehicle_interface_packages.git
+	branch = navigation_sim
+[submodule "ros_packages/vehicle_simulation_packages"]
+	path = ros_packages/vehicle_simulation_packages
+	url = https://github.com/AIR-UFG/vehicle_simulation_packages.git
+	branch = navigation_sim

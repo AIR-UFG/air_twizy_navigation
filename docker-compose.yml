@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  air_simulation:
+    image: "sim_test"
+    container_name: air_container
+    network_mode: host
+    ipc: host
+    pid: host
+    privileged: true
+    tty: true
+    user: root
+    stdin_open: true
+    restart: no
+    environment:
+      DISPLAY: "${DISPLAY}"
+      QT_X11_NO_MITSHM: "1"
+      XAUTHORITY: "${XAUTHORITY}"
+      GPU: "${GPU}"
+      WORLD_NAME: "${WORLD_NAME}"
+      RVIZ: "${RVIZ}"
+      FOV_UP: "${FOV_UP}"
+      FOV_DOWN: "${FOV_DOWN}"
+      WIDTH: "${WIDTH}"
+      HEIGHT: "${HEIGHT}"
+      ROBOT_POSE: "${ROBOT_POSE}"
+      WITH_VI: "${WITH_VI}"
+      NVIDIA_RUNTIME: "${NVIDIA_RUNTIME}"
+      USERNAME: "${USERNAME}"
+    volumes:
+      # - ${HOST_FOLDER_PATH}:${CONTAINER_FOLDER_PATH}:rw #(ONLY FOR DEVELOPMENT)
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XAUTHORITY}:/tmp/.docker.xauth:rw
+      - "/dev:/dev" 
+      - "./ros_packages/:/home/nav/ros2_ws/src/" 
+      - "./gps_navigation_graph:/home/nav/gps_navigation_graph" 
+      # - ${SHARED_FOLDER}:/root/shared_folder:rw
+    runtime: "${NVIDIA_RUNTIME}"
+    entrypoint: /home/nav/entrypoint.sh
+    command: >
+      /bin/bash  
+    #"ros2 launch air_sim air_simulation.launch.py world_name:=${WORLD_NAME} robot_pose:=${ROBOT_POSE} gpu:=${GPU} rviz:=${RVIZ}"
+    # if [ \"${WITH_VI}\" = \"true\" ]; then
+    #   ros2 launch sd_vehicle_interface sd_vehicle_interface.launch.xml sd_vehicle:=twizy sd_gps_imu:=none sd_simulation_mode:=true &
+    # fi
+    #tail -f /dev/null"
