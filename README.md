@@ -23,8 +23,8 @@ The installation procedure is very simple; you just need to build the Docker ima
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [YOUR_PROJECT_FOLDER_NAME]
+    git clone https://github.com/AIR-UFG/air_twizy_navigation.git
+    cd air_twizy_navigation
     ```
 
 2.  **Build the Docker image:**
@@ -112,7 +112,7 @@ This project incorporates and utilizes modified versions of open-source software
 ### Nav2 - `nav2_costmap_2d`
 
 * **Original Software:** `nav2_costmap_2d` (part of the [Nav2 - Navigation2 stack](https://navigation.ros.org/)).
-* **Original Licenses:** Apache License 2.0 and BSD-3-Clause. Full copies of these licenses, applicable to the `nav2_costmap_2d` derived components used in this project, can be found in the `LICENSE_Apache-2.0.txt` and `LICENSE_BSD-3-Clause.txt` files in this repository.
+* **Original Licenses:** Apache License 2.0 and BSD-3-Clause.
 * **Copyright Notices:** Original copyright notices have been retained in the modified source files.
 
 #### Source Code Modifications:
@@ -120,11 +120,7 @@ This project incorporates and utilizes modified versions of open-source software
 * **`ros_packages/navigation2/nav2_costmap_2d/src/observation_buffer.cpp`**:
 
     * Hardcoded the **aforementioned** costmap parameters.
-    * Added some debug logs (**currently commented out**).
 
-* **`ros_packages/navigation2/nav2_costmap_2d/plugins/voxel_layer.cpp`**:
-
-    * Added some debug logs (**also commented out**).
 
 ### Nav2 - `nav2_gps_waypoint_follower_demo`
 
