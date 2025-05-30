@@ -158,3 +158,7 @@ To begin our experimentation, we started with our ROS2 Twizy simulation. To eval
 Since the simulation model does not perfectly replicate the real Twizy, we applied several modifications to the `vehicle_control` plugin and other related files. These changes ensure that our model accurately tracks the linear and angular velocity setpoints. Our underlying assumption is that if the real car can follow the velocity setpoints with the same precision as in the simulation (assuming a geometric match), then a system proven effective in simulation can be transferred to the real world with further tuning and adjustments based on real-world proportions.
 
 Following this approach, we first achieved our initial goal of accurately tracking velocities within the simulation. Subsequently, we adapted the Nav2 GPS tutorial to our specific vehicle. Currently, we are in the process of fine-tuning the Nav2 parameters and exploring other plugins, paving the way for the eventual integration of SLAM, to develop the optimal navigation system for our intended purpose.
+
+Here is our current result:
+
+![Navigation GIF](media/Twizy_navigation.gif)
