@@ -1,0 +1,901 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-12-13-20-51-24-187209-gustavo-Aspire-A515-45-62803
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [icp_odometry-1]: process started with pid [62812]
+[INFO] [rtabmap-2]: process started with pid [62814]
+[INFO] [rtabmap_viz-3]: process started with pid [62816]
+[INFO] [controller_server-4]: process started with pid [62818]
+[INFO] [smoother_server-5]: process started with pid [62820]
+[INFO] [planner_server-6]: process started with pid [62822]
+[INFO] [behavior_server-7]: process started with pid [62824]
+[INFO] [bt_navigator-8]: process started with pid [62826]
+[INFO] [waypoint_follower-9]: process started with pid [62828]
+[INFO] [velocity_smoother-10]: process started with pid [62830]
+[INFO] [lifecycle_manager-11]: process started with pid [62833]
+[INFO] [rviz2-12]: process started with pid [62835]
+[rviz2-12] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+[controller_server-4] [INFO] [1765659085.771089220] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[behavior_server-7] [INFO] [1765659085.812146519] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1765659085.825946055] [controller_server]: Creating controller server
+[waypoint_follower-9] [INFO] [1765659085.849467580] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[velocity_smoother-10] [INFO] [1765659085.855100501] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1765659085.866198395] [waypoint_follower]: Creating
+[planner_server-6] [INFO] [1765659085.879735051] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1765659085.881295235] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-5] [INFO] [1765659085.889406154] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-11] [INFO] [1765659085.890900994] [lifecycle_manager_navigation]: Creating
+[planner_server-6] [INFO] [1765659085.897371496] [planner_server]: Creating
+[bt_navigator-8] [INFO] [1765659085.903190340] [bt_navigator]: Creating
+[smoother_server-5] [INFO] [1765659085.907567165] [smoother_server]: Creating smoother server
+[lifecycle_manager-11] [INFO] [1765659085.920196789] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-6] [INFO] [1765659086.036082464] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1765659086.042246274] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1765659086.069801182] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1765659086.082372905] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-11] [INFO] [1765659086.349014954] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1765659086.349229411] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-4] [INFO] [1765659086.352942715] [controller_server]: Configuring controller interface
+[controller_server-4] [INFO] [1765659086.353051141] [controller_server]: getting progress checker plugins..
+[controller_server-4] [INFO] [1765659086.356512126] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1765659086.358960939] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-4] [INFO] [1765659086.359161510] [local_costmap.local_costmap]: Configuring
+[controller_server-4] [INFO] [1765659086.424382625] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-4] [INFO] [1765659086.468794888] [local_costmap.local_costmap]: Subscribed to Topics: velodyne
+[controller_server-4] [INFO] [1765659086.568841393] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-4] [INFO] [1765659086.568979465] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1765659086.580190734] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1765659086.693355341] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1765659086.695666391] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-4] [INFO] [1765659086.700463164] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1765659086.702703380] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1765659086.712295994] [controller_server]: Created controller : FollowPath of type nav2_mppi_controller::MPPIController
+[controller_server-4] [INFO] [1765659086.726258349] [controller_server]: Controller period is equal to model dt. Control sequence shifting is ON
+[controller_server-4] [INFO] [1765659086.747037254] [controller_server]: ConstraintCritic instantiated with 1 power and 4.000000 weight.
+[controller_server-4] [INFO] [1765659086.747203219] [controller_server]: Critic loaded : mppi::critics::ConstraintCritic
+[controller_server-4] [INFO] [1765659086.764073559] [controller_server]: ObstaclesCritic instantiated with 1 power and 20.000000 / 1.500000 weights. Critic will collision check based on circular cost.
+[controller_server-4] [INFO] [1765659086.764248992] [controller_server]: Critic loaded : mppi::critics::ObstaclesCritic
+[controller_server-4] [INFO] [1765659086.768198425] [controller_server]: GoalCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-4] [INFO] [1765659086.768298545] [controller_server]: Critic loaded : mppi::critics::GoalCritic
+[controller_server-4] [INFO] [1765659086.779039892] [controller_server]: ReferenceTrajectoryCritic instantiated with 1 power and 10.000000 weight
+[controller_server-4] [INFO] [1765659086.779153337] [controller_server]: Critic loaded : mppi::critics::PathAlignCritic
+[controller_server-4] [INFO] [1765659086.780064568] [controller_server]: Critic loaded : mppi::critics::PathFollowCritic
+[controller_server-4] [INFO] [1765659086.789458996] [controller_server]: PreferForwardCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-4] [INFO] [1765659086.789630381] [controller_server]: Critic loaded : mppi::critics::PreferForwardCritic
+[controller_server-4] [INFO] [1765659086.803849023] [controller_server]: Optimizer reset
+[controller_server-4] [INFO] [1765659086.826501838] [MPPIController]: Configured MPPI Controller: FollowPath
+[controller_server-4] [INFO] [1765659086.826641694] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-11] [INFO] [1765659086.876146602] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1765659086.877596246] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1765659086.979412233] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1765659086.982666265] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-11] [INFO] [1765659087.117525938] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1765659087.129229693] [planner_server]: Configuring
+[planner_server-6] [INFO] [1765659087.129385138] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1765659087.432273790] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1765659087.483077285] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1765659087.509527104] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-6] [INFO] [1765659087.568484179] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[icp_odometry-1] [INFO] [1765659087.712856214] [icp_odometry]: Odometry: frame_id               = base_link
+[icp_odometry-1] [INFO] [1765659087.713748359] [icp_odometry]: Odometry: odom_frame_id          = odom
+[icp_odometry-1] [INFO] [1765659087.713809766] [icp_odometry]: Odometry: publish_tf             = true
+[icp_odometry-1] [INFO] [1765659087.713839392] [icp_odometry]: Odometry: wait_for_transform     = 0.200000
+[icp_odometry-1] [INFO] [1765659087.713902141] [icp_odometry]: Odometry: log_to_rosout_level    = 4
+[icp_odometry-1] [INFO] [1765659087.713993124] [icp_odometry]: Odometry: initial_pose           = xyz=0.000000,0.000000,0.000000 rpy=0.000000,-0.000000,0.000000
+[icp_odometry-1] [INFO] [1765659087.714039302] [icp_odometry]: Odometry: ground_truth_frame_id  = 
+[icp_odometry-1] [INFO] [1765659087.714066464] [icp_odometry]: Odometry: ground_truth_base_frame_id = base_link
+[icp_odometry-1] [INFO] [1765659087.714093194] [icp_odometry]: Odometry: config_path            = 
+[icp_odometry-1] [INFO] [1765659087.714119003] [icp_odometry]: Odometry: publish_null_when_lost = true
+[icp_odometry-1] [INFO] [1765659087.714144622] [icp_odometry]: Odometry: publish_compressed_sensor_data = false
+[icp_odometry-1] [INFO] [1765659087.714170611] [icp_odometry]: Odometry: guess_frame_id         = 
+[icp_odometry-1] [INFO] [1765659087.714195268] [icp_odometry]: Odometry: guess_min_translation  = 0.000000
+[icp_odometry-1] [INFO] [1765659087.714226107] [icp_odometry]: Odometry: guess_min_rotation     = 0.000000
+[icp_odometry-1] [INFO] [1765659087.714254952] [icp_odometry]: Odometry: guess_min_time         = 0.000000
+[icp_odometry-1] [INFO] [1765659087.714285580] [icp_odometry]: Odometry: expected_update_rate   = 15.000000 Hz
+[icp_odometry-1] [INFO] [1765659087.714320236] [icp_odometry]: Odometry: max_update_rate        = 0.000000 Hz
+[icp_odometry-1] [INFO] [1765659087.714349501] [icp_odometry]: Odometry: min_update_rate        = 0.000000 Hz
+[icp_odometry-1] [INFO] [1765659087.714378496] [icp_odometry]: Odometry: wait_imu_to_init       = false
+[icp_odometry-1] [INFO] [1765659087.714404255] [icp_odometry]: Odometry: sensor_data_compression_format = .jpg
+[icp_odometry-1] [INFO] [1765659087.714430455] [icp_odometry]: Odometry: sensor_data_parallel_compression = true
+[icp_odometry-1] [INFO] [1765659087.714469339] [icp_odometry]: Odometry: stereoParams_=0 visParams_=0 icpParams_=1
+[icp_odometry-1] [INFO] [1765659087.742164193] [icp_odometry]: Setting odometry parameter "Icp/CorrespondenceRatio"="0.01"
+[icp_odometry-1] [INFO] [1765659087.748156136] [icp_odometry]: Setting odometry parameter "Icp/Epsilon"="0.001"
+[icp_odometry-1] [INFO] [1765659087.748770263] [icp_odometry]: Setting odometry parameter "Icp/Iterations"="10"
+[icp_odometry-1] [INFO] [1765659087.748986584] [icp_odometry]: Setting odometry parameter "Icp/MaxCorrespondenceDistance"="1"
+[icp_odometry-1] [INFO] [1765659087.755351947] [icp_odometry]: Setting odometry parameter "Icp/MaxTranslation"="2"
+[icp_odometry-1] [INFO] [1765659087.758216369] [icp_odometry]: Setting odometry parameter "Icp/OutlierRatio"="0.7"
+[rtabmap_viz-3] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+[icp_odometry-1] [INFO] [1765659087.779718798] [icp_odometry]: Setting odometry parameter "Icp/PointToPlaneK"="20"
+[rtabmap-2] [INFO] [1765659087.789285393] [rtabmap]: rtabmap(maps): latch                      = true
+[rtabmap-2] [INFO] [1765659087.790175784] [rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[rtabmap-2] [INFO] [1765659087.790246839] [rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[rtabmap-2] [INFO] [1765659087.790285834] [rtabmap]: rtabmap(maps): map_cleanup                = true
+[rtabmap-2] [INFO] [1765659087.790314057] [rtabmap]: rtabmap(maps): map_always_update          = false
+[rtabmap-2] [INFO] [1765659087.790339165] [rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[rtabmap-2] [INFO] [1765659087.790364062] [rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[rtabmap-2] [INFO] [1765659087.790389460] [rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[rtabmap-2] [INFO] [1765659087.790414197] [rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[rtabmap-2] [INFO] [1765659087.790636249] [rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[icp_odometry-1] [INFO] [1765659087.789587507] [icp_odometry]: Setting odometry parameter "Icp/PointToPlaneRadius"="0"
+[icp_odometry-1] [INFO] [1765659087.798902563] [icp_odometry]: Setting odometry parameter "Icp/VoxelSize"="0.1"
+[icp_odometry-1] [INFO] [1765659087.814902971] [icp_odometry]: Setting odometry parameter "Odom/ScanKeyFrameThr"="0.4"
+[icp_odometry-1] [INFO] [1765659087.815893302] [icp_odometry]: Setting odometry parameter "OdomF2M/BundleAdjustment"="false"
+[icp_odometry-1] [INFO] [1765659087.818115604] [icp_odometry]: Setting odometry parameter "OdomF2M/ScanMaxSize"="15000"
+[icp_odometry-1] [INFO] [1765659087.818993973] [icp_odometry]: Setting odometry parameter "OdomF2M/ScanSubtractRadius"="0.1"
+[planner_server-6] [INFO] [1765659087.958473162] [planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[planner_server-6] [INFO] [1765659087.958678613] [planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[planner_server-6] [INFO] [1765659087.984289788] [planner_server]: Even sized heuristic lookup table size set 200.000000, increasing size by 1 to make odd
+[planner_server-6] [WARN] [1765659087.984512271] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [WARN] [1765659087.989588044] [icp_odometry]: IcpOdometry: Transferring value 0.1 of "Icp/VoxelSize" to ros parameter "scan_voxel_size" for convenience. "Icp/VoxelSize" is set to 0.
+[icp_odometry-1] [WARN] [1765659087.989792542] [icp_odometry]: IcpOdometry: Transferring value 20 of "Icp/PointToPlaneK" to ros parameter "scan_normal_k" for convenience.
+[rviz2-12] [INFO] [1765659088.041843348] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-12] [INFO] [1765659088.042157044] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[icp_odometry-1] [INFO] [1765659088.103720621] [icp_odometry]: IcpOdometry: qos                    = 0
+[icp_odometry-1] [INFO] [1765659088.103888320] [icp_odometry]: IcpOdometry: scan_cloud_max_points  = -1
+[icp_odometry-1] [INFO] [1765659088.103923888] [icp_odometry]: IcpOdometry: scan_cloud_is_2d       = false
+[icp_odometry-1] [INFO] [1765659088.103952943] [icp_odometry]: IcpOdometry: scan_downsampling_step = 1
+[icp_odometry-1] [INFO] [1765659088.103980325] [icp_odometry]: IcpOdometry: scan_range_min         = 0.000000 m
+[icp_odometry-1] [INFO] [1765659088.104192237] [icp_odometry]: IcpOdometry: scan_range_max         = 0.000000 m
+[icp_odometry-1] [INFO] [1765659088.104229889] [icp_odometry]: IcpOdometry: scan_voxel_size        = 0.100000 m
+[icp_odometry-1] [INFO] [1765659088.104262912] [icp_odometry]: IcpOdometry: scan_normal_k          = 20
+[icp_odometry-1] [INFO] [1765659088.104290945] [icp_odometry]: IcpOdometry: scan_normal_radius     = 0.000000 m
+[icp_odometry-1] [INFO] [1765659088.104321022] [icp_odometry]: IcpOdometry: scan_normal_ground_up  = 0.000000
+[icp_odometry-1] [INFO] [1765659088.104349526] [icp_odometry]: IcpOdometry: deskewing              = false
+[icp_odometry-1] [INFO] [1765659088.104375435] [icp_odometry]: IcpOdometry: deskewing_slerp        = false
+[icp_odometry-1] [INFO] [1765659088.134824843] [icp_odometry]: 
+[icp_odometry-1] icp_odometry subscribed to /scan and /velodyne_points (make sure only one of this topic is published, otherwise remap one to a dummy topic name).
+[rtabmap_viz-3] [INFO] [1765659088.202368181] [rtabmap_viz]: rtabmap_viz: Using configuration from "/root/.ros/rtabmapGUI.ini"
+[rtabmap-2] [INFO] [1765659088.236114421] [rtabmap]: rtabmap: frame_id      = base_link
+[rtabmap-2] [INFO] [1765659088.236319461] [rtabmap]: rtabmap: map_frame_id  = map
+[rtabmap-2] [INFO] [1765659088.236360469] [rtabmap]: rtabmap: log_to_rosout_level  = 4
+[rtabmap-2] [INFO] [1765659088.236397229] [rtabmap]: rtabmap: initial_pose  = 
+[rtabmap-2] [INFO] [1765659088.236430592] [rtabmap]: rtabmap: use_action_for_goal  = false
+[rtabmap-2] [INFO] [1765659088.236463685] [rtabmap]: rtabmap: tf_delay      = 0.050000
+[rtabmap-2] [INFO] [1765659088.236520222] [rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[rtabmap-2] [INFO] [1765659088.236591648] [rtabmap]: rtabmap: odom_sensor_sync   = false
+[rtabmap-2] [INFO] [1765659088.236626675] [rtabmap]: rtabmap: pub_loc_pose_only_when_localizing = false
+[rtabmap-2] [INFO] [1765659088.236661120] [rtabmap]: rtabmap: gen_scan  = false
+[rtabmap-2] [INFO] [1765659088.236695475] [rtabmap]: rtabmap: gen_depth  = false
+[rtabmap-2] [INFO] [1765659088.236728839] [rtabmap]: rtabmap: scan_cloud_max_points = 0
+[rtabmap-2] [INFO] [1765659088.236763014] [rtabmap]: rtabmap: scan_cloud_is_2d = false
+[rviz2-12] [INFO] [1765659088.280465339] [rviz2]: Stereo is NOT SUPPORTED
+[rtabmap-2] [INFO] [1765659088.461350142] [rtabmap]: Setting RTAB-Map parameter "Grid/3D"="false"
+[rtabmap-2] [INFO] [1765659088.463549079] [rtabmap]: Setting RTAB-Map parameter "Grid/CellSize"="0.1"
+[rtabmap-2] [INFO] [1765659088.464403422] [rtabmap]: Setting RTAB-Map parameter "Grid/ClusterRadius"="0.5"
+[rtabmap-2] [INFO] [1765659088.466718230] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxGroundAngle"="45.0"
+[rtabmap-2] [INFO] [1765659088.469180478] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxObstacleHeight"="1.5"
+[rtabmap-2] [INFO] [1765659088.469681149] [rtabmap]: Setting RTAB-Map parameter "Grid/MinClusterSize"="3"
+[rtabmap-2] [INFO] [1765659088.471098011] [rtabmap]: Setting RTAB-Map parameter "Grid/NormalsSegmentation"="true"
+[rtabmap-2] [INFO] [1765659088.472313760] [rtabmap]: Setting RTAB-Map parameter "Grid/RangeMax"="40.0"
+[rtabmap-2] [INFO] [1765659088.474799192] [rtabmap]: Setting RTAB-Map parameter "Grid/RayTracing"="true"
+[rtabmap-2] [INFO] [1765659088.475875296] [rtabmap]: Setting RTAB-Map parameter "Grid/ScanDecimation"="4"
+[rtabmap-2] [INFO] [1765659088.484954435] [rtabmap]: Setting RTAB-Map parameter "Icp/CorrespondenceRatio"="0.2"
+[rtabmap-2] [INFO] [1765659088.486213667] [rtabmap]: Setting RTAB-Map parameter "Icp/Epsilon"="0.001"
+[rtabmap-2] [INFO] [1765659088.487312234] [rtabmap]: Setting RTAB-Map parameter "Icp/Iterations"="10"
+[rtabmap-2] [INFO] [1765659088.488564383] [rtabmap]: Setting RTAB-Map parameter "Icp/MaxCorrespondenceDistance"="1"
+[rtabmap-2] [INFO] [1765659088.491005050] [rtabmap]: Setting RTAB-Map parameter "Icp/MaxTranslation"="3"
+[rtabmap-2] [INFO] [1765659088.492246639] [rtabmap]: Setting RTAB-Map parameter "Icp/OutlierRatio"="0.7"
+[rtabmap-2] [INFO] [1765659088.493627612] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlane"="true"
+[rtabmap-2] [INFO] [1765659088.494282797] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlaneK"="20"
+[rtabmap-2] [INFO] [1765659088.495930988] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlaneRadius"="0"
+[rtabmap-2] [INFO] [1765659088.497320748] [rtabmap]: Setting RTAB-Map parameter "Icp/Strategy"="1"
+[rtabmap-2] [INFO] [1765659088.497748431] [rtabmap]: Setting RTAB-Map parameter "Icp/VoxelSize"="0.1"
+[rtabmap-2] [INFO] [1765659088.541142591] [rtabmap]: Setting RTAB-Map parameter "Mem/LaserScanNormalK"="20"
+[rtabmap-2] [INFO] [1765659088.546615037] [rtabmap]: Setting RTAB-Map parameter "Mem/NotLinkedNodesKept"="false"
+[rtabmap-2] [INFO] [1765659088.553237298] [rtabmap]: Setting RTAB-Map parameter "Mem/STMSize"="30"
+[rtabmap-2] [INFO] [1765659088.574807487] [rtabmap]: Setting RTAB-Map parameter "RGBD/AngularUpdate"="0.05"
+[rtabmap-2] [INFO] [1765659088.575319449] [rtabmap]: Setting RTAB-Map parameter "RGBD/CreateOccupancyGrid"="true"
+[rtabmap-2] [INFO] [1765659088.576551500] [rtabmap]: Setting RTAB-Map parameter "RGBD/LinearUpdate"="0.05"
+[rtabmap-2] [INFO] [1765659088.591132441] [rtabmap]: Setting RTAB-Map parameter "RGBD/ProximityMaxGraphDepth"="0"
+[rtabmap-2] [INFO] [1765659088.593440095] [rtabmap]: Setting RTAB-Map parameter "RGBD/ProximityPathMaxNeighbors"="1"
+[rtabmap-2] [INFO] [1765659088.595324956] [rtabmap]: Setting RTAB-Map parameter "Reg/Strategy"="1"
+[rtabmap-2] [WARN] [1765659088.708783272] [rtabmap]: Setting "Grid/Sensor" parameter to 0 (default 1) as "subscribe_scan" or "subscribe_scan_cloud" or "gen_scan" is true. The occupancy grid map will be constructed from laser scans. To get occupancy grid map from cloud projection, set "Grid/Sensor" to true. To suppress this warning, add <param name="Grid/Sensor" type="string" value="0"/>
+[rtabmap-2] [INFO] [1765659088.709629720] [rtabmap]: RTAB-Map detection rate = 1.000000 Hz
+[rtabmap-2] [INFO] [1765659088.711193241] [rtabmap]: rtabmap: Deleted database "/root/.ros/rtabmap.db" (--delete_db_on_start or -d are set).
+[rtabmap-2] [INFO] [1765659088.711423639] [rtabmap]: rtabmap: Using database from "/root/.ros/rtabmap.db" (0 MB).
+[rtabmap-2] [INFO] [1765659089.067353611] [rtabmap]: rtabmap: Database version = "0.21.6".
+[rtabmap-2] [INFO] [1765659089.067558801] [rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[rtabmap-2] [INFO] [1765659089.502131110] [rtabmap]: Setup callbacks
+[rtabmap-2] [INFO] [1765659089.504904690] [rtabmap]: rtabmap: subscribe_depth = false
+[rtabmap-2] [INFO] [1765659089.505074352] [rtabmap]: rtabmap: subscribe_rgb = false
+[rtabmap-2] [INFO] [1765659089.505114188] [rtabmap]: rtabmap: subscribe_stereo = false
+[rtabmap-2] [INFO] [1765659089.505565966] [rtabmap]: rtabmap: subscribe_rgbd = false (rgbd_cameras=1)
+[rtabmap-2] [INFO] [1765659089.505614468] [rtabmap]: rtabmap: subscribe_sensor_data = false
+[rtabmap-2] [INFO] [1765659089.505648272] [rtabmap]: rtabmap: subscribe_odom_info = false
+[rtabmap-2] [INFO] [1765659089.505676566] [rtabmap]: rtabmap: subscribe_user_data = false
+[rtabmap-2] [INFO] [1765659089.505705922] [rtabmap]: rtabmap: subscribe_scan = false
+[rtabmap-2] [INFO] [1765659089.505737241] [rtabmap]: rtabmap: subscribe_scan_cloud = true
+[rtabmap-2] [INFO] [1765659089.505767489] [rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[rtabmap-2] [INFO] [1765659089.505798177] [rtabmap]: rtabmap: topic_queue_size = 1
+[rtabmap-2] [INFO] [1765659089.505829246] [rtabmap]: rtabmap: sync_queue_size  = 10
+[rtabmap-2] [INFO] [1765659089.505860836] [rtabmap]: rtabmap: qos_image       = 0
+[rtabmap-2] [INFO] [1765659089.505892186] [rtabmap]: rtabmap: qos_camera_info = 0
+[rtabmap-2] [INFO] [1765659089.505921942] [rtabmap]: rtabmap: qos_scan        = 0
+[rtabmap-2] [INFO] [1765659089.505951077] [rtabmap]: rtabmap: qos_odom        = 0
+[rtabmap-2] [INFO] [1765659089.505976696] [rtabmap]: rtabmap: qos_user_data   = 0
+[rtabmap-2] [INFO] [1765659089.506001844] [rtabmap]: rtabmap: approx_sync     = true
+[rtabmap-2] [INFO] [1765659089.506088859] [rtabmap]: Setup scan callback
+[rtabmap-2] [INFO] [1765659089.519065132] [rtabmap]: 
+[rtabmap-2] rtabmap subscribed to (approx sync):
+[rtabmap-2]    /odom \
+[rtabmap-2]    /odom_filtered_input_scan
+[rtabmap-2] [WARN] [1765659089.553527824] [rtabmap]: There is no image subscription, bag-of-words loop closure detection will be disabled...
+[rtabmap-2] [WARN] [1765659089.553695823] [rtabmap]: Setting Kp/MaxFeatures=-1 (bag-of-words disabled)
+[icp_odometry-1] [WARN] [1765659091.166512832] [icp_odometry]: icp_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[icp_odometry-1] icp_odometry subscribed to /scan and /velodyne_points (make sure only one of this topic is published, otherwise remap one to a dummy topic name).
+[rtabmap-2] [WARN] [1765659091.556136416] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=10 and 1 respectively).
+[rtabmap-2] rtabmap subscribed to (approx sync):
+[rtabmap-2]    /odom \
+[rtabmap-2]    /odom_filtered_input_scan
+[planner_server-6] [INFO] [1765659091.905362421] [planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and allowing unknown traversal. Tolerance 0.25.Using motion model: Dubin.
+[planner_server-6] [INFO] [1765659091.905558143] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-11] [INFO] [1765659091.983596552] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1765659091.985225937] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1765659092.036029134] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-7] [INFO] [1765659092.043111891] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-7] [INFO] [1765659092.048872926] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-7] [INFO] [1765659092.054553508] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-7] [INFO] [1765659092.107097732] [behavior_server]: Configuring spin
+[behavior_server-7] [INFO] [1765659092.217268177] [behavior_server]: Configuring backup
+[behavior_server-7] [INFO] [1765659092.314078330] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1765659092.385488366] [behavior_server]: Configuring wait
+[rtabmap_viz-3] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-3] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-3] libpng warning: iCCP: known incorrect sRGB profile
+[lifecycle_manager-11] [INFO] [1765659092.516088654] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1765659092.522829190] [bt_navigator]: Configuring
+[icp_odometry-1] [INFO] [1765659092.602115631] [icp_odometry]: Odom: ratio=0.000000, std dev=99.995000m|99.995000rad, update time=0.000000s
+[bt_navigator-8] [INFO] [1765659092.635801097] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator/NavigateToPoseNavigator
+[bt_navigator-8] [WARN] [1765659092.658666107] [bt_navigator]: Error_code parameters were not set. Using default values of: follow_path_error_code compute_path_error_code
+[bt_navigator-8] Make sure these match your BT and there are not other sources of error codes youreported to your application
+[bt_navigator-8] [INFO] [1765659093.039249389] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator/NavigateThroughPosesNavigator
+[lifecycle_manager-11] [INFO] [1765659093.208931237] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1765659093.210434894] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1765659093.356497439] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-11] [INFO] [1765659093.363078141] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1765659093.364197407] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-11] [INFO] [1765659093.386186363] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1765659093.387382706] [controller_server]: Activating
+[controller_server-4] [INFO] [1765659093.387556716] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1765659093.387598325] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1765659093.388192584] [local_costmap.local_costmap]: start
+[controller_server-4] [WARN] [1765659093.593854568] [controller_server]: Parameter controller_server.verbose not found
+[controller_server-4] [INFO] [1765659093.597845921] [controller_server]: Optimizer reset
+[controller_server-4] [INFO] [1765659093.598570077] [MPPIController]: Activated MPPI Controller: FollowPath
+[controller_server-4] [INFO] [1765659093.598675678] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rtabmap_viz-3] [WARN] [1765659093.675521733] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[lifecycle_manager-11] [INFO] [1765659093.711893032] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-11] [INFO] [1765659093.712037957] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1765659093.716768284] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1765659093.716885968] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[rtabmap_viz-3] [INFO] [1765659093.825966303] [rtabmap_viz]: Reading parameters from the ROS server...
+[lifecycle_manager-11] [INFO] [1765659093.865783559] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-11] [INFO] [1765659093.865921531] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1765659093.866828855] [planner_server]: Activating
+[planner_server-6] [INFO] [1765659093.866935658] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1765659093.866963020] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1765659093.867045196] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[icp_odometry-1] [INFO] [1765659093.867674181] [icp_odometry]: Odom: ratio=0.989559, std dev=0.003539m|0.001119rad, update time=0.074000s
+[icp_odometry-1] [INFO] [1765659094.309345026] [icp_odometry]: Odom: ratio=0.987973, std dev=0.003742m|0.001183rad, update time=0.000000s
+[planner_server-6] [INFO] [1765659094.367090654] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rtabmap-2] [WARN] [1765659094.422504301] [rtabmap]: We received odometry message, but we cannot get the corresponding TF odom->base_link at data stamp 2422.848000s (odom msg stamp is 2422.848000s). Make sure TF of odometry is also published to get more accurate pose estimation. This warning is only printed once.
+[rtabmap-2] [INFO] [1765659094.461003453] [rtabmap]: rtabmap (1): Rate=1.00s, Limit=0.000s, Conversion=0.5521s, RTAB-Map=0.0331s, Maps update=0.0036s pub=0.0011s (local map=1, WM=1)
+[planner_server-6] [INFO] [1765659094.461990569] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 264 X 232 at 0.100000 m/pix
+[rviz2-12] [INFO] [1765659094.627080284] [rviz2]: Trying to create a map of size 264 x 232 using 1 swatches
+[rviz2-12] [ERROR] [1765659094.648572035] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+[rviz2-12] rviz/glsl120/indexed_8bit_image.frag
+[rviz2-12]  GLSL link result : 
+[rviz2-12] active samplers with a different type refer to the same texture image unit
+[rtabmap_viz-3] [INFO] [1765659094.697304749] [rtabmap_viz]: Parameters read = 377
+[rtabmap_viz-3] [INFO] [1765659094.697404338] [rtabmap_viz]: Parameters successfully read.
+[planner_server-6] [INFO] [1765659094.867272482] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation at time 2423.049000, but only time 2423.329000 is in the buffer, when looking up transform from frame [base_link] to frame [map]
+[icp_odometry-1] [INFO] [1765659095.158410090] [icp_odometry]: Odom: ratio=0.982149, std dev=0.004347m|0.001375rad, update time=0.113000s
+[rtabmap_viz-3] [INFO] [1765659095.256713893] [rtabmap_viz]: rtabmap_viz: subscribe_depth = false
+[rtabmap_viz-3] [INFO] [1765659095.256858177] [rtabmap_viz]: rtabmap_viz: subscribe_rgb = false
+[rtabmap_viz-3] [INFO] [1765659095.256871843] [rtabmap_viz]: rtabmap_viz: subscribe_stereo = false
+[rtabmap_viz-3] [INFO] [1765659095.256883595] [rtabmap_viz]: rtabmap_viz: subscribe_rgbd = false (rgbd_cameras=1)
+[rtabmap_viz-3] [INFO] [1765659095.256898283] [rtabmap_viz]: rtabmap_viz: subscribe_sensor_data = false
+[rtabmap_viz-3] [INFO] [1765659095.256909544] [rtabmap_viz]: rtabmap_viz: subscribe_odom_info = true
+[rtabmap_viz-3] [INFO] [1765659095.256921246] [rtabmap_viz]: rtabmap_viz: subscribe_user_data = false
+[rtabmap_viz-3] [INFO] [1765659095.256932638] [rtabmap_viz]: rtabmap_viz: subscribe_scan = false
+[rtabmap_viz-3] [INFO] [1765659095.256944360] [rtabmap_viz]: rtabmap_viz: subscribe_scan_cloud = true
+[rtabmap_viz-3] [INFO] [1765659095.256955972] [rtabmap_viz]: rtabmap_viz: subscribe_scan_descriptor = false
+[rtabmap_viz-3] [INFO] [1765659095.256968366] [rtabmap_viz]: rtabmap_viz: topic_queue_size = 1
+[rtabmap_viz-3] [INFO] [1765659095.256980930] [rtabmap_viz]: rtabmap_viz: sync_queue_size  = 10
+[rtabmap_viz-3] [INFO] [1765659095.256993554] [rtabmap_viz]: rtabmap_viz: qos_image       = 0
+[rtabmap_viz-3] [INFO] [1765659095.257006649] [rtabmap_viz]: rtabmap_viz: qos_camera_info = 0
+[rtabmap_viz-3] [INFO] [1765659095.257019373] [rtabmap_viz]: rtabmap_viz: qos_scan        = 0
+[rtabmap_viz-3] [INFO] [1765659095.257030875] [rtabmap_viz]: rtabmap_viz: qos_odom        = 0
+[rtabmap_viz-3] [INFO] [1765659095.257042537] [rtabmap_viz]: rtabmap_viz: qos_user_data   = 0
+[rtabmap_viz-3] [INFO] [1765659095.257054259] [rtabmap_viz]: rtabmap_viz: approx_sync     = false
+[rtabmap_viz-3] [INFO] [1765659095.257088494] [rtabmap_viz]: Setup scan callback
+[rtabmap_viz-3] [INFO] [1765659095.267061972] [rtabmap_viz]: 
+[rtabmap_viz-3] rtabmap_viz subscribed to (exact sync):
+[rtabmap_viz-3]    /odom_filtered_input_scan \
+[rtabmap_viz-3]    /odom_info
+[rtabmap_viz-3] [INFO] [1765659095.280257592] [rtabmap_viz]: rtabmap_viz started.
+[planner_server-6] [INFO] [1765659095.367499138] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 2423.248000 but the earliest data is at time 2423.329000, when looking up transform from frame [base_link] to frame [map]
+[icp_odometry-1] [INFO] [1765659095.689624289] [icp_odometry]: Odom: ratio=0.981767, std dev=0.004527m|0.001432rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659095.716468720] [rviz]: Message Filter dropping message: frame 'odom' at time 2422.645 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1765659095.813097951] [rviz]: Message Filter dropping message: frame 'odom' at time 2422.645 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1765659095.867222049] [global_costmap.global_costmap]: start
+[icp_odometry-1] [INFO] [1765659096.108947253] [icp_odometry]: Odom: ratio=0.977888, std dev=0.004556m|0.001441rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659096.561590163] [icp_odometry]: Odom: ratio=0.972557, std dev=0.005440m|0.001720rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659096.888334283] [rviz2]: Trying to create a map of size 264 x 232 using 1 swatches
+[planner_server-6] [INFO] [1765659096.917497579] [planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[planner_server-6] [INFO] [1765659096.921682420] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[icp_odometry-1] [INFO] [1765659097.028501442] [icp_odometry]: Odom: ratio=0.961878, std dev=0.006166m|0.001950rad, update time=0.000000s
+[lifecycle_manager-11] [INFO] [1765659097.031185832] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-11] [INFO] [1765659097.031317061] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1765659097.032198215] [behavior_server]: Activating
+[behavior_server-7] [INFO] [1765659097.032264381] [behavior_server]: Activating spin
+[behavior_server-7] [INFO] [1765659097.032287094] [behavior_server]: Activating backup
+[behavior_server-7] [INFO] [1765659097.032302834] [behavior_server]: Activating drive_on_heading
+[behavior_server-7] [INFO] [1765659097.032317692] [behavior_server]: Activating wait
+[behavior_server-7] [INFO] [1765659097.032339664] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[rtabmap-2] [INFO] [1765659097.065595405] [rtabmap]: rtabmap (2): Rate=1.00s, Limit=0.000s, Conversion=0.0002s, RTAB-Map=0.0348s, Maps update=0.0001s pub=0.0015s (local map=1, WM=1)
+[lifecycle_manager-11] [INFO] [1765659097.143580487] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-11] [INFO] [1765659097.143674686] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1765659097.144407969] [bt_navigator]: Activating
+[rtabmap-2] [33m[ WARN] (2025-12-13 20:51:34.422) MsgConversion.cpp:1994::getTransform() (can transform odom -> base_link?) Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist. canTransform returned after 0.306 timeout was 0.2. (wait_for_transform=0.200000)[0m
+[bt_navigator-8] [INFO] [1765659097.343491333] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1765659097.455750942] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-11] [INFO] [1765659097.455857404] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1765659097.456965760] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1765659097.457302469] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1765659097.575502705] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-11] [INFO] [1765659097.575599058] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1765659097.579682506] [velocity_smoother]: Activating
+[velocity_smoother-10] [INFO] [1765659097.579811070] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[icp_odometry-1] [INFO] [1765659097.621101206] [icp_odometry]: Odom: ratio=0.957206, std dev=0.006961m|0.002201rad, update time=0.000000s
+[lifecycle_manager-11] [INFO] [1765659097.692264507] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-11] [INFO] [1765659097.692327227] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1765659097.692341143] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[icp_odometry-1] [INFO] [1765659098.190773233] [icp_odometry]: Odom: ratio=0.949593, std dev=0.007996m|0.002529rad, update time=0.067000s
+[icp_odometry-1] [INFO] [1765659098.659373058] [icp_odometry]: Odom: ratio=0.945644, std dev=0.008057m|0.002548rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659099.080725779] [icp_odometry]: Odom: ratio=0.945339, std dev=0.008037m|0.002541rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659099.598922377] [icp_odometry]: Odom: ratio=0.941780, std dev=0.008862m|0.002802rad, update time=0.074000s
+[icp_odometry-1] [INFO] [1765659099.922897675] [icp_odometry]: Odom: ratio=0.942872, std dev=0.008899m|0.002814rad, update time=0.064000s
+[rtabmap-2] [INFO] [1765659099.973665699] [rtabmap]: rtabmap (3): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0481s, Maps update=0.0002s pub=0.0012s (local map=1, WM=1)
+[icp_odometry-1] [INFO] [1765659100.308861137] [icp_odometry]: Odom: ratio=0.942918, std dev=0.009434m|0.002983rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659100.733138472] [icp_odometry]: Odom: ratio=0.933723, std dev=0.010425m|0.003297rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659101.249846649] [icp_odometry]: Odom: ratio=0.926765, std dev=0.010694m|0.003382rad, update time=0.051000s
+[icp_odometry-1] [INFO] [1765659101.748413782] [icp_odometry]: Odom: ratio=0.924411, std dev=0.013359m|0.004224rad, update time=0.062000s
+[icp_odometry-1] [INFO] [1765659102.226925003] [icp_odometry]: Odom: ratio=0.923853, std dev=0.012629m|0.003994rad, update time=0.062000s
+[rtabmap-2] [33m[ WARN] (2025-12-13 20:51:39.971) Rtabmap.cpp:4560::process() Republishing data of requested node(s) 1 (Rtabmap/MaxRepublished=2)[0m
+[icp_odometry-1] [INFO] [1765659102.754835721] [icp_odometry]: Odom: ratio=0.920155, std dev=0.012691m|0.004013rad, update time=0.054000s
+[rtabmap-2] [INFO] [1765659102.802120358] [rtabmap]: rtabmap (4): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0453s, Maps update=0.0001s pub=0.0004s (local map=1, WM=1)
+[icp_odometry-1] [INFO] [1765659103.209844944] [icp_odometry]: Odom: ratio=0.920057, std dev=0.014934m|0.004723rad, update time=0.062000s
+[icp_odometry-1] [INFO] [1765659103.724587208] [icp_odometry]: Odom: ratio=0.915033, std dev=0.013819m|0.004370rad, update time=0.056000s
+[icp_odometry-1] [INFO] [1765659104.180916934] [icp_odometry]: Odom: ratio=0.915048, std dev=0.013955m|0.004413rad, update time=0.053000s
+[icp_odometry-1] [INFO] [1765659104.807967492] [icp_odometry]: Odom: ratio=0.910327, std dev=0.014990m|0.004740rad, update time=0.056000s
+[icp_odometry-1] [INFO] [1765659105.241626880] [icp_odometry]: Odom: ratio=0.912697, std dev=0.014826m|0.004688rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659105.289772384] [rtabmap]: rtabmap (5): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0449s, Maps update=0.0001s pub=0.0003s (local map=1, WM=1)
+[rviz2-12] [INFO] [1765659105.397788670] [rviz2]: Trying to create a map of size 200 x 200 using 1 swatches
+[icp_odometry-1] [INFO] [1765659105.723266400] [icp_odometry]: Odom: ratio=0.909814, std dev=0.016403m|0.005187rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659106.119697179] [icp_odometry]: Odom: ratio=0.906676, std dev=0.017006m|0.005378rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659106.580955490] [icp_odometry]: Odom: ratio=0.901700, std dev=0.017294m|0.005469rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659107.045502410] [icp_odometry]: Odom: ratio=0.894132, std dev=0.018702m|0.005914rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659107.505697585] [icp_odometry]: Odom: ratio=0.886107, std dev=0.018335m|0.005798rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659108.038221884] [icp_odometry]: Odom: ratio=0.880969, std dev=0.019280m|0.006097rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659108.070242763] [rtabmap]: rtabmap (6): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0307s, Maps update=0.0002s pub=0.0005s (local map=1, WM=1)
+[icp_odometry-1] [INFO] [1765659108.548232592] [icp_odometry]: Odom: ratio=0.881011, std dev=0.019548m|0.006182rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659109.024717171] [icp_odometry]: Odom: ratio=0.881251, std dev=0.019374m|0.006127rad, update time=0.000000s
+[rviz2-12] Start navigation
+[rviz2-12] [INFO] [1765659109.242687150] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[bt_navigator-8] [INFO] [1765659109.244241223] [bt_navigator]: Begin navigating from current location (-0.00, -0.02) to (9.38, -0.19)
+[planner_server-6] [WARN] [1765659109.245642966] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659109.266934189] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1765659109.267070568] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[controller_server-4] [WARN] [1765659109.267096628] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[icp_odometry-1] [INFO] [1765659109.561253181] [icp_odometry]: Odom: ratio=0.879469, std dev=0.019464m|0.006155rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659110.092335129] [icp_odometry]: Odom: ratio=0.935552, std dev=0.017679m|0.005591rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659110.275499480] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659110.367310030] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659110.607004618] [icp_odometry]: Odom: ratio=0.907769, std dev=0.041663m|0.013175rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659110.646693116] [rtabmap]: rtabmap (7): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0336s, Maps update=0.0041s pub=0.0012s (local map=2, WM=2)
+[rviz2-12] [INFO] [1765659110.726339303] [rviz2]: Trying to create a map of size 272 x 240 using 1 swatches
+[planner_server-6] [INFO] [1765659110.867429363] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 272 X 240 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659111.147632529] [icp_odometry]: Odom: ratio=0.871196, std dev=0.044801m|0.014167rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659111.305199417] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659111.367284859] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659111.621042449] [icp_odometry]: Odom: ratio=0.837713, std dev=0.049232m|0.015568rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659111.890790321] [rviz2]: Trying to create a map of size 272 x 240 using 1 swatches
+[icp_odometry-1] [INFO] [1765659112.234241461] [icp_odometry]: Odom: ratio=0.793232, std dev=0.056284m|0.017799rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659112.335063314] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659112.367303400] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659112.775107223] [icp_odometry]: Odom: ratio=0.761719, std dev=0.063727m|0.020152rad, update time=0.065000s
+[icp_odometry-1] [INFO] [1765659113.230319854] [icp_odometry]: Odom: ratio=0.751468, std dev=0.062532m|0.019774rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659113.365158470] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659113.467296615] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659113.785574520] [icp_odometry]: Odom: ratio=0.704731, std dev=0.069838m|0.022085rad, update time=0.065000s
+[rtabmap-2] [INFO] [1765659113.847017783] [rtabmap]: rtabmap (8): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=0.0515s, Maps update=0.0076s pub=0.0012s (local map=3, WM=3)
+[rviz2-12] [INFO] [1765659113.863603206] [rviz2]: Trying to create a map of size 277 x 241 using 1 swatches
+[planner_server-6] [INFO] [1765659113.867466977] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 277 X 241 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659114.225408125] [icp_odometry]: Odom: ratio=0.691184, std dev=0.070027m|0.022144rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659114.395378013] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659114.467318983] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659114.691005784] [icp_odometry]: Odom: ratio=0.674804, std dev=0.066868m|0.021146rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659114.885250946] [rviz2]: Trying to create a map of size 277 x 241 using 1 swatches
+[icp_odometry-1] [INFO] [1765659115.178619266] [icp_odometry]: Odom: ratio=0.649242, std dev=0.066498m|0.021028rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659115.425023915] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659115.467284241] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659115.682543442] [icp_odometry]: Odom: ratio=0.615040, std dev=0.067128m|0.021228rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659116.162177006] [icp_odometry]: Odom: ratio=0.597637, std dev=0.063460m|0.020068rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659116.199423516] [rtabmap]: rtabmap (9): Rate=1.00s, Limit=0.000s, Conversion=0.0002s, RTAB-Map=0.0326s, Maps update=0.0029s pub=0.0009s (local map=4, WM=4)
+[planner_server-6] [WARN] [1765659116.455037385] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659116.567283758] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659116.713638229] [icp_odometry]: Odom: ratio=0.587222, std dev=0.059938m|0.018954rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659117.213758373] [icp_odometry]: Odom: ratio=0.571480, std dev=0.064905m|0.020525rad, update time=0.077000s
+[planner_server-6] [WARN] [1765659117.485183116] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659117.567317486] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659117.709617594] [icp_odometry]: Odom: ratio=0.555894, std dev=0.064107m|0.020272rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659118.212287518] [icp_odometry]: Odom: ratio=0.551346, std dev=0.066082m|0.020897rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659118.253486428] [rviz]: Message Filter dropping message: frame 'odom' at time 2422.811 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659118.353574923] [rviz]: Message Filter dropping message: frame 'odom' at time 2422.848 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659118.353698758] [rviz]: Message Filter dropping message: frame 'odom' at time 2422.848 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [WARN] [1765659118.515220630] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659118.567308481] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659118.831206675] [icp_odometry]: Odom: ratio=0.551978, std dev=0.065008m|0.020557rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659118.894072083] [rtabmap]: rtabmap (10): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0526s, Maps update=0.0064s pub=0.0024s (local map=5, WM=5)
+[rviz2-12] [INFO] [1765659118.923337349] [rviz2]: Trying to create a map of size 300 x 242 using 1 swatches
+[rviz2-12] [INFO] [1765659119.003649067] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.049 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659119.003755890] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.049 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659119.003784664] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.049 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659119.003810494] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.049 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[icp_odometry-1] [INFO] [1765659119.342437089] [icp_odometry]: Odom: ratio=0.541344, std dev=0.064763m|0.020480rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659119.503867419] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.248 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659119.504009509] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.248 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1765659119.504039797] [rviz]: Message Filter dropping message: frame 'odom' at time 2423.248 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [WARN] [1765659119.545023058] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659119.567276361] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659119.843315135] [icp_odometry]: Odom: ratio=0.532278, std dev=0.069493m|0.021976rad, update time=0.000000s
+[planner_server-6] [INFO] [1765659119.867426028] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 300 X 242 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659120.279561869] [icp_odometry]: Odom: ratio=0.520058, std dev=0.072328m|0.022872rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659120.575122399] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659120.667315704] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659120.813877825] [icp_odometry]: Odom: ratio=0.517732, std dev=0.072033m|0.022779rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659120.933282514] [rviz2]: Trying to create a map of size 300 x 242 using 1 swatches
+[icp_odometry-1] [INFO] [1765659121.377697403] [icp_odometry]: Odom: ratio=0.494504, std dev=0.073464m|0.023231rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659121.605019336] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659121.667317418] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659121.866457603] [icp_odometry]: Odom: ratio=0.487453, std dev=0.071782m|0.022699rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659121.899668106] [rtabmap]: rtabmap (11): Rate=1.00s, Limit=0.000s, Conversion=0.0002s, RTAB-Map=0.0283s, Maps update=0.0034s pub=0.0008s (local map=6, WM=6)
+[rviz2-12] [INFO] [1765659121.967634408] [rviz2]: Trying to create a map of size 314 x 242 using 1 swatches
+[icp_odometry-1] [INFO] [1765659122.364959596] [icp_odometry]: Odom: ratio=0.469303, std dev=0.072457m|0.022913rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659122.635101513] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659122.667287239] [controller_server]: Passing new path to controller.
+[planner_server-6] [INFO] [1765659122.867450510] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 314 X 242 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659122.939606614] [icp_odometry]: Odom: ratio=0.465414, std dev=0.069282m|0.021909rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659123.411031092] [icp_odometry]: Odom: ratio=0.453640, std dev=0.070791m|0.022386rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659123.665043083] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659123.767288641] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659123.879890246] [icp_odometry]: Odom: ratio=0.453971, std dev=0.072730m|0.022999rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659123.990092343] [rviz2]: Trying to create a map of size 314 x 242 using 1 swatches
+[icp_odometry-1] [INFO] [1765659124.425777106] [icp_odometry]: Odom: ratio=0.447031, std dev=0.073710m|0.023309rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659124.463105484] [rtabmap]: rtabmap (12): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0311s, Maps update=0.0040s pub=0.0016s (local map=7, WM=7)
+[rviz2-12] [INFO] [1765659124.504898486] [rviz2]: Trying to create a map of size 335 x 258 using 1 swatches
+[planner_server-6] [WARN] [1765659124.695481967] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659124.767293077] [controller_server]: Passing new path to controller.
+[planner_server-6] [INFO] [1765659124.867409400] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 335 X 258 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659124.990920316] [icp_odometry]: Odom: ratio=0.435754, std dev=0.073872m|0.023360rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659125.418636201] [icp_odometry]: Odom: ratio=0.425842, std dev=0.073678m|0.023299rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659125.726467029] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659125.767317340] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659126.071030715] [icp_odometry]: Odom: ratio=0.424811, std dev=0.074773m|0.023645rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659126.770668873] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659126.867332568] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659126.881947117] [icp_odometry]: Odom: ratio=0.417969, std dev=0.073283m|0.023174rad, update time=0.085000s
+[rviz2-12] [INFO] [1765659126.885495119] [rviz2]: Trying to create a map of size 335 x 258 using 1 swatches
+[icp_odometry-1] [INFO] [1765659127.550631665] [icp_odometry]: Odom: ratio=0.412538, std dev=0.076486m|0.024187rad, update time=0.100000s
+[rtabmap-2] [INFO] [1765659127.651476525] [rtabmap]: rtabmap (13): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0854s, Maps update=0.0110s pub=0.0020s (local map=8, WM=8)
+[rviz2-12] [INFO] [1765659127.744979194] [rviz2]: Trying to create a map of size 335 x 260 using 1 swatches
+[planner_server-6] [WARN] [1765659127.805088650] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659127.867303558] [controller_server]: Passing new path to controller.
+[planner_server-6] [INFO] [1765659127.867476436] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 335 X 260 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659128.200472179] [icp_odometry]: Odom: ratio=0.412753, std dev=0.079607m|0.025174rad, update time=0.051000s
+[icp_odometry-1] [INFO] [1765659128.726096577] [icp_odometry]: Odom: ratio=0.396605, std dev=0.077978m|0.024659rad, update time=0.046000s
+[planner_server-6] [WARN] [1765659128.835247100] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659128.867326245] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659129.222930270] [icp_odometry]: Odom: ratio=0.909189, std dev=0.032790m|0.010369rad, update time=0.065000s
+[icp_odometry-1] [INFO] [1765659129.728018911] [icp_odometry]: Odom: ratio=0.863751, std dev=0.044494m|0.014070rad, update time=0.054000s
+[planner_server-6] [WARN] [1765659129.865646095] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659129.967308320] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1765659130.048592844] [rviz2]: Trying to create a map of size 335 x 260 using 1 swatches
+[icp_odometry-1] [INFO] [1765659130.296991014] [icp_odometry]: Odom: ratio=0.842257, std dev=0.050558m|0.015988rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659130.808622432] [icp_odometry]: Odom: ratio=0.814995, std dev=0.059320m|0.018758rad, update time=0.056000s
+[rtabmap-2] [INFO] [1765659130.866327211] [rtabmap]: rtabmap (14): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=0.0500s, Maps update=0.0036s pub=0.0017s (local map=9, WM=9)
+[planner_server-6] [WARN] [1765659130.895700565] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659130.967316338] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659131.347478865] [icp_odometry]: Odom: ratio=0.741448, std dev=0.053933m|0.017055rad, update time=0.056000s
+[icp_odometry-1] [INFO] [1765659131.766129718] [icp_odometry]: Odom: ratio=0.707194, std dev=0.052187m|0.016503rad, update time=0.065000s
+[planner_server-6] [WARN] [1765659131.925238894] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659131.967291051] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659132.298979962] [icp_odometry]: Odom: ratio=0.663546, std dev=0.056487m|0.017863rad, update time=0.043000s
+[icp_odometry-1] [INFO] [1765659132.743031555] [icp_odometry]: Odom: ratio=0.665045, std dev=0.057496m|0.018182rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659132.955223039] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659133.067270962] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659133.187010631] [icp_odometry]: Odom: ratio=0.643127, std dev=0.059390m|0.018781rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659133.242217565] [rtabmap]: rtabmap (15): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=0.0407s, Maps update=0.0098s pub=0.0026s (local map=10, WM=10)
+[rviz2-12] [INFO] [1765659133.263430534] [rviz2]: Trying to create a map of size 342 x 260 using 1 swatches
+[icp_odometry-1] [INFO] [1765659133.705815794] [icp_odometry]: Odom: ratio=0.629270, std dev=0.061733m|0.019522rad, update time=0.000000s
+[planner_server-6] [INFO] [1765659133.867477674] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 342 X 260 at 0.100000 m/pix
+[planner_server-6] [WARN] [1765659133.985319607] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659134.067286261] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659134.260234502] [icp_odometry]: Odom: ratio=0.620294, std dev=0.059957m|0.018960rad, update time=0.076000s
+[icp_odometry-1] [INFO] [1765659134.819125000] [icp_odometry]: Odom: ratio=0.611628, std dev=0.060952m|0.019275rad, update time=0.080000s
+[planner_server-6] [WARN] [1765659135.015459707] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659135.067304844] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659135.367138934] [icp_odometry]: Odom: ratio=0.602507, std dev=0.059941m|0.018955rad, update time=0.075000s
+[icp_odometry-1] [INFO] [1765659135.856032077] [icp_odometry]: Odom: ratio=0.595132, std dev=0.059752m|0.018895rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659135.878576426] [rviz2]: Trying to create a map of size 342 x 260 using 1 swatches
+[rtabmap-2] [INFO] [1765659135.911291692] [rtabmap]: rtabmap (16): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0429s, Maps update=0.0083s pub=0.0021s (local map=11, WM=11)
+[rviz2-12] [INFO] [1765659135.938466810] [rviz2]: Trying to create a map of size 343 x 260 using 1 swatches
+[planner_server-6] [WARN] [1765659136.045058708] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659136.067298008] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659136.379680535] [icp_odometry]: Odom: ratio=0.593169, std dev=0.065522m|0.020720rad, update time=0.000000s
+[planner_server-6] [INFO] [1765659136.867401645] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 343 X 260 at 0.100000 m/pix
+[icp_odometry-1] [INFO] [1765659136.923950982] [icp_odometry]: Odom: ratio=0.574316, std dev=0.064468m|0.020387rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659137.075355805] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659137.167319247] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659137.364751715] [icp_odometry]: Odom: ratio=0.569663, std dev=0.060778m|0.019220rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659137.864145019] [icp_odometry]: Odom: ratio=0.555814, std dev=0.062959m|0.019909rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659138.105136991] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659138.167280930] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659138.407564827] [icp_odometry]: Odom: ratio=0.547867, std dev=0.068484m|0.021657rad, update time=0.060000s
+[icp_odometry-1] [INFO] [1765659138.875608704] [icp_odometry]: Odom: ratio=0.534646, std dev=0.064772m|0.020483rad, update time=0.000000s
+[rviz2-12] [INFO] [1765659138.883293437] [rviz2]: Trying to create a map of size 343 x 260 using 1 swatches
+[rtabmap-2] [INFO] [1765659138.927294530] [rtabmap]: rtabmap (17): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0407s, Maps update=0.0070s pub=0.0020s (local map=12, WM=12)
+[rviz2-12] [INFO] [1765659138.944519742] [rviz2]: Trying to create a map of size 349 x 260 using 1 swatches
+[planner_server-6] [WARN] [1765659139.135511944] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659139.167274892] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659139.484999308] [icp_odometry]: Odom: ratio=0.537787, std dev=0.067550m|0.021361rad, update time=0.140000s
+[planner_server-6] [INFO] [1765659139.867468766] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 349 X 260 at 0.100000 m/pix
+[planner_server-6] [WARN] [1765659140.158720809] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[bt_navigator-8] [WARN] [1765659140.255971230] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-4] [INFO] [1765659140.267299908] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659140.319052702] [icp_odometry]: Odom: ratio=0.537040, std dev=0.071481m|0.022604rad, update time=0.085000s
+[bt_navigator-8] [WARN] [1765659141.095797820] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-6] [WARN] [1765659141.184430856] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[bt_navigator-8] [WARN] [1765659141.197874613] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-4] [INFO] [1765659141.269768351] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [WARN] [1765659141.308718577] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-8] [WARN] [1765659141.328320896] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[icp_odometry-1] [INFO] [1765659141.574008589] [icp_odometry]: Odom: ratio=0.532761, std dev=0.073456m|0.023229rad, update time=0.177000s
+[icp_odometry-1] [INFO] [1765659141.989774565] [icp_odometry]: Odom: ratio=0.520852, std dev=0.073401m|0.023211rad, update time=0.048000s
+[planner_server-6] [WARN] [1765659142.219071724] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659142.267277227] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659142.417795985] [icp_odometry]: Odom: ratio=0.501163, std dev=0.070718m|0.022363rad, update time=0.075000s
+[rviz2-12] [INFO] [1765659142.945261585] [rviz2]: Trying to create a map of size 349 x 260 using 1 swatches
+[icp_odometry-1] [INFO] [1765659143.038376269] [icp_odometry]: Odom: ratio=0.501703, std dev=0.069149m|0.021867rad, update time=0.054000s
+[rtabmap-2] [INFO] [1765659143.092183538] [rtabmap]: rtabmap (18): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=0.0441s, Maps update=0.0045s pub=0.0027s (local map=13, WM=13)
+[planner_server-6] [WARN] [1765659143.248812598] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659143.367330025] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659143.649325647] [icp_odometry]: Odom: ratio=0.501609, std dev=0.068580m|0.021687rad, update time=0.049000s
+[icp_odometry-1] [INFO] [1765659144.202504396] [icp_odometry]: Odom: ratio=0.488023, std dev=0.071130m|0.022493rad, update time=0.053000s
+[planner_server-6] [WARN] [1765659144.278921311] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659144.367309505] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659144.714875071] [icp_odometry]: Odom: ratio=0.481859, std dev=0.070728m|0.022366rad, update time=0.059000s
+[icp_odometry-1] [INFO] [1765659145.222779060] [icp_odometry]: Odom: ratio=0.472207, std dev=0.067126m|0.021227rad, update time=0.062000s
+[planner_server-6] [WARN] [1765659145.309134051] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659145.367292159] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659145.785568170] [icp_odometry]: Odom: ratio=0.468900, std dev=0.067885m|0.021467rad, update time=0.055000s
+[rtabmap-2] [INFO] [1765659145.842618523] [rtabmap]: rtabmap (19): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=0.0450s, Maps update=0.0061s pub=0.0036s (local map=14, WM=14)
+[planner_server-6] [INFO] [1765659145.867423980] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 349 X 291 at 0.100000 m/pix
+[rviz2-12] [INFO] [1765659145.914412493] [rviz2]: Trying to create a map of size 349 x 291 using 1 swatches
+[rviz2-12] [INFO] [1765659146.076154913] [rviz2]: Trying to create a map of size 349 x 291 using 1 swatches
+[planner_server-6] [WARN] [1765659146.346689643] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [INFO] [1765659146.411144627] [icp_odometry]: Odom: ratio=0.462527, std dev=0.068904m|0.021789rad, update time=0.055000s
+[controller_server-4] [INFO] [1765659146.467313085] [controller_server]: Passing new path to controller.
+[rviz2-12] Start navigation
+[rviz2-12] [INFO] [1765659146.824290774] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[bt_navigator-8] [INFO] [1765659146.828307687] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1765659146.828746200] [bt_navigator]: Begin navigating from current location (6.65, -0.24) to (16.32, -0.50)
+[icp_odometry-1] [INFO] [1765659146.938525525] [icp_odometry]: Odom: ratio=0.460207, std dev=0.068139m|0.021547rad, update time=0.057000s
+[planner_server-6] [WARN] [1765659147.378634632] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[bt_navigator-8] [WARN] [1765659147.661149321] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[icp_odometry-1] [INFO] [1765659147.798901033] [icp_odometry]: Odom: ratio=0.454416, std dev=0.067703m|0.021409rad, update time=0.086000s
+[icp_odometry-1] [INFO] [1765659148.621361335] [icp_odometry]: Odom: ratio=0.450770, std dev=0.068467m|0.021651rad, update time=0.131000s
+[icp_odometry-1] [INFO] [1765659149.381268141] [icp_odometry]: Odom: ratio=0.441981, std dev=0.069854m|0.022090rad, update time=0.132000s
+[icp_odometry-1] [INFO] [1765659150.058731149] [icp_odometry]: Odom: ratio=0.436438, std dev=0.069455m|0.021964rad, update time=0.086000s
+[rtabmap-2] [INFO] [1765659150.132801738] [rtabmap]: rtabmap (20): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=0.0585s, Maps update=0.0111s pub=0.0026s (local map=15, WM=15)
+[rviz2-12] [INFO] [1765659150.299728417] [rviz2]: Trying to create a map of size 382 x 367 using 1 swatches
+[icp_odometry-1] [INFO] [1765659150.682857474] [icp_odometry]: Odom: ratio=0.430129, std dev=0.071033m|0.022462rad, update time=0.095000s
+[icp_odometry-1] [INFO] [1765659151.384842651] [icp_odometry]: Odom: ratio=0.430077, std dev=0.069632m|0.022020rad, update time=0.092000s
+[icp_odometry-1] [INFO] [1765659152.181445560] [icp_odometry]: Odom: ratio=0.428342, std dev=0.071936m|0.022748rad, update time=0.072000s
+[planner_server-6] [WARN] [1765659152.395776987] [planner_server]: GridBased plugin failed to plan from (6.76, -0.24) to (16.32, -0.50): "no valid path found"
+[planner_server-6] [WARN] [1765659152.395961868] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1765659152.395787837] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 382 X 367 at 0.100000 m/pix
+[planner_server-6] [INFO] [1765659152.408558697] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[rviz2-12] [INFO] [1765659152.423043733] [rviz2]: Trying to create a map of size 382 x 367 using 1 swatches
+[controller_server-4] [INFO] [1765659152.467314624] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1765659152.467663407] [controller_server]: Path is empty.
+[controller_server-4] [INFO] [1765659152.469338140] [controller_server]: Optimizer reset
+[controller_server-4] [WARN] [1765659152.469462396] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[bt_navigator-8] [ERROR] [1765659152.519183013] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for compute_path_to_pose in node halt!
+[bt_navigator-8] [WARN] [1765659152.519816938] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-8] [ERROR] [1765659152.519940963] [bt_navigator]: Goal failed
+[bt_navigator-8] [WARN] [1765659152.520002200] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[icp_odometry-1] [INFO] [1765659152.808154293] [icp_odometry]: Odom: ratio=0.425339, std dev=0.071269m|0.022537rad, update time=0.051000s
+[icp_odometry-1] [INFO] [1765659153.326286564] [icp_odometry]: Odom: ratio=0.423605, std dev=0.071140m|0.022497rad, update time=0.053000s
+[rtabmap-2] [INFO] [1765659153.392636754] [rtabmap]: rtabmap (21): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0576s, Maps update=0.0040s pub=0.0032s (local map=16, WM=16)
+[planner_server-6] [WARN] [1765659153.409887998] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [INFO] [1765659154.425834997] [icp_odometry]: Odom: ratio=0.425004, std dev=0.070964m|0.022441rad, update time=0.115000s
+[icp_odometry-1] [INFO] [1765659155.333001459] [icp_odometry]: Odom: ratio=0.421973, std dev=0.071049m|0.022468rad, update time=0.139000s
+[icp_odometry-1] [INFO] [1765659156.132364199] [icp_odometry]: Odom: ratio=0.422967, std dev=0.070997m|0.022451rad, update time=0.104000s
+[icp_odometry-1] [INFO] [1765659156.853127844] [icp_odometry]: Odom: ratio=0.423826, std dev=0.070938m|0.022432rad, update time=0.093000s
+[icp_odometry-1] [INFO] [1765659157.786794426] [icp_odometry]: Odom: ratio=0.421738, std dev=0.071066m|0.022473rad, update time=0.103000s
+[rtabmap-2] [INFO] [1765659157.874369895] [rtabmap]: rtabmap (22): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0833s, Maps update=0.0005s pub=0.0008s (local map=16, WM=16)
+[planner_server-6] [WARN] [1765659158.447120626] [planner_server]: GridBased plugin failed to plan from (7.60, -0.23) to (16.32, -0.50): "no valid path found"
+[planner_server-6] [WARN] [1765659158.447246004] [planner_server]: [compute_path_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[icp_odometry-1] [INFO] [1765659158.551222763] [icp_odometry]: Odom: ratio=0.420836, std dev=0.070308m|0.022233rad, update time=0.086000s
+[icp_odometry-1] [INFO] [1765659159.013563140] [icp_odometry]: Odom: ratio=0.420658, std dev=0.069915m|0.022109rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659159.470597107] [icp_odometry]: Odom: ratio=0.418692, std dev=0.070053m|0.022153rad, update time=0.000000s
+[rviz2-12] Start navigation
+[rviz2-12] [INFO] [1765659159.948162041] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[bt_navigator-8] [INFO] [1765659159.949273663] [bt_navigator]: Begin navigating from current location (7.60, -0.23) to (16.02, 0.14)
+[planner_server-6] [WARN] [1765659159.949921294] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [INFO] [1765659159.980886050] [icp_odometry]: Odom: ratio=0.420046, std dev=0.070069m|0.022158rad, update time=0.000000s
+[controller_server-4] [INFO] [1765659159.990708016] [controller_server]: Received a goal, begin computing control effort.
+[icp_odometry-1] [INFO] [1765659160.484793821] [icp_odometry]: Odom: ratio=0.415357, std dev=0.070306m|0.022233rad, update time=0.000000s
+[rtabmap-2] [INFO] [1765659160.519889838] [rtabmap]: rtabmap (23): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0327s, Maps update=0.0003s pub=0.0007s (local map=16, WM=16)
+[planner_server-6] [WARN] [1765659161.000358204] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659161.091784353] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659161.154198708] [icp_odometry]: Odom: ratio=0.421457, std dev=0.068348m|0.021614rad, update time=0.037000s
+[icp_odometry-1] [INFO] [1765659161.647473826] [icp_odometry]: Odom: ratio=0.421794, std dev=0.066342m|0.020979rad, update time=0.054000s
+[planner_server-6] [WARN] [1765659162.043931589] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659162.093400813] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659162.128228020] [icp_odometry]: Odom: ratio=0.416429, std dev=0.071324m|0.022555rad, update time=0.061000s
+[icp_odometry-1] [INFO] [1765659162.563160906] [icp_odometry]: Odom: ratio=0.416518, std dev=0.072106m|0.022802rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659163.068785979] [icp_odometry]: Odom: ratio=0.410717, std dev=0.071585m|0.022637rad, update time=0.000000s
+[planner_server-6] [WARN] [1765659163.090094826] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659163.191424358] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659163.601937438] [icp_odometry]: Odom: ratio=0.403493, std dev=0.072093m|0.022798rad, update time=0.075000s
+[rtabmap-2] [INFO] [1765659163.643221407] [rtabmap]: rtabmap (24): Rate=1.00s, Limit=0.000s, Conversion=0.0008s, RTAB-Map=0.0349s, Maps update=0.0029s pub=0.0015s (local map=17, WM=17)
+[planner_server-6] [WARN] [1765659164.112672868] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [INFO] [1765659164.275198452] [icp_odometry]: Odom: ratio=0.408192, std dev=0.074767m|0.023643rad, update time=0.068000s
+[controller_server-4] [INFO] [1765659164.791430020] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659165.098113952] [icp_odometry]: Odom: ratio=0.402244, std dev=0.071633m|0.022652rad, update time=0.086000s
+[icp_odometry-1] [INFO] [1765659165.603052843] [icp_odometry]: Odom: ratio=0.395978, std dev=0.072850m|0.023037rad, update time=0.057000s
+[planner_server-6] [WARN] [1765659165.780103552] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[controller_server-4] [INFO] [1765659165.891426638] [controller_server]: Passing new path to controller.
+[icp_odometry-1] [INFO] [1765659166.205723111] [icp_odometry]: Odom: ratio=0.880562, std dev=0.037503m|0.011859rad, update time=0.117000s
+[icp_odometry-1] [INFO] [1765659166.768160881] [icp_odometry]: Odom: ratio=0.864220, std dev=0.040836m|0.012914rad, update time=0.096000s
+[planner_server-6] [WARN] [1765659166.820489611] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[rtabmap-2] [INFO] [1765659166.848454377] [rtabmap]: rtabmap (25): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=0.0698s, Maps update=0.0056s pub=0.0030s (local map=18, WM=18)
+[icp_odometry-1] [INFO] [1765659167.690590604] [icp_odometry]: Odom: ratio=0.825298, std dev=0.049987m|0.015807rad, update time=0.115000s
+[icp_odometry-1] [INFO] [1765659168.502793759] [icp_odometry]: Odom: ratio=0.771352, std dev=0.054527m|0.017243rad, update time=0.128000s
+[icp_odometry-1] [INFO] [1765659169.278487502] [icp_odometry]: Odom: ratio=0.742136, std dev=0.058265m|0.018425rad, update time=0.132000s
+[icp_odometry-1] [INFO] [1765659169.958439543] [icp_odometry]: Odom: ratio=0.713396, std dev=0.062182m|0.019664rad, update time=0.100000s
+[icp_odometry-1] [INFO] [1765659171.013641404] [icp_odometry]: Odom: ratio=0.693127, std dev=0.061119m|0.019328rad, update time=0.104000s
+[planner_server-6] [WARN] [1765659171.833707555] [planner_server]: GridBased plugin failed to plan from (8.58, -0.23) to (16.02, 0.14): "no valid path found"
+[planner_server-6] [WARN] [1765659171.833887778] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1765659171.860666972] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-8] [WARN] [1765659171.863474959] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-8] [WARN] [1765659171.880456673] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-8] [WARN] [1765659171.880570248] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[controller_server-4] [INFO] [1765659171.895942955] [controller_server]: Goal was canceled. Stopping the robot.
+[controller_server-4] [WARN] [1765659171.896085325] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [WARN] [1765659171.896325702] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[controller_server-4] [INFO] [1765659171.898657584] [controller_server]: Optimizer reset
+[controller_server-4] [INFO] [1765659171.901996089] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[bt_navigator-8] [WARN] [1765659171.907667077] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-6] [INFO] [1765659171.915396356] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-8] [WARN] [1765659171.917990887] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[icp_odometry-1] [INFO] [1765659171.989460516] [icp_odometry]: Odom: ratio=0.665720, std dev=0.063233m|0.019996rad, update time=0.188000s
+[rtabmap-2] [INFO] [1765659172.071766721] [rtabmap]: rtabmap (26): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0678s, Maps update=0.0091s pub=0.0035s (local map=19, WM=19)
+[rviz2-12] [INFO] [1765659172.191227229] [rviz2]: Trying to create a map of size 386 x 367 using 1 swatches
+[icp_odometry-1] [INFO] [1765659172.515631909] [icp_odometry]: Odom: ratio=0.646599, std dev=0.065629m|0.020754rad, update time=0.040000s
+[planner_server-6] [INFO] [1765659172.842109248] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 386 X 367 at 0.100000 m/pix
+[planner_server-6] [WARN] [1765659172.846980706] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [INFO] [1765659173.148486497] [icp_odometry]: Odom: ratio=0.638237, std dev=0.064698m|0.020459rad, update time=0.071000s
+[icp_odometry-1] [INFO] [1765659173.806842786] [icp_odometry]: Odom: ratio=0.643848, std dev=0.065424m|0.020689rad, update time=0.102000s
+[icp_odometry-1] [INFO] [1765659174.580836633] [icp_odometry]: Odom: ratio=0.643670, std dev=0.066178m|0.020927rad, update time=0.095000s
+[icp_odometry-1] [INFO] [1765659175.280360290] [icp_odometry]: Odom: ratio=0.650675, std dev=0.066814m|0.021128rad, update time=0.091000s
+[rtabmap-2] [INFO] [1765659175.355190879] [rtabmap]: rtabmap (27): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0637s, Maps update=0.0042s pub=0.0042s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659175.969017137] [icp_odometry]: Odom: ratio=0.650435, std dev=0.067295m|0.021281rad, update time=0.092000s
+[icp_odometry-1] [INFO] [1765659176.801036608] [icp_odometry]: Odom: ratio=0.652027, std dev=0.067136m|0.021230rad, update time=0.152000s
+[icp_odometry-1] [INFO] [1765659177.720265192] [icp_odometry]: Odom: ratio=0.649769, std dev=0.066602m|0.021061rad, update time=0.130000s
+[planner_server-6] [WARN] [1765659177.860012932] [planner_server]: GridBased plugin failed to plan from (9.26, -0.30) to (16.02, 0.14): "no valid path found"
+[planner_server-6] [WARN] [1765659177.860191171] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1765659177.871433297] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[rviz2-12] [INFO] [1765659177.880982246] [rviz2]: Trying to create a map of size 386 x 367 using 1 swatches
+[icp_odometry-1] [INFO] [1765659178.419225827] [icp_odometry]: Odom: ratio=0.652854, std dev=0.067445m|0.021328rad, update time=0.105000s
+[planner_server-6] [WARN] [1765659178.873762658] [computeCircumscribedCost]: No inflation layer found in costmap configuration. If this is an SE2-collision checking plugin, it cannot use costmap potential field to speed up collision checking by only checking the full footprint when robot is within possibly-inscribed radius of an obstacle. This may significantly slow down planning times!
+[icp_odometry-1] [INFO] [1765659179.388418503] [icp_odometry]: Odom: ratio=0.653381, std dev=0.067267m|0.021272rad, update time=0.095000s
+[rtabmap-2] [INFO] [1765659179.444779091] [rtabmap]: rtabmap (28): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0537s, Maps update=0.0003s pub=0.0007s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659180.103224802] [icp_odometry]: Odom: ratio=0.651725, std dev=0.067009m|0.021190rad, update time=0.106000s
+[icp_odometry-1] [INFO] [1765659180.807344446] [icp_odometry]: Odom: ratio=0.654927, std dev=0.066573m|0.021052rad, update time=0.090000s
+[icp_odometry-1] [INFO] [1765659181.984205885] [icp_odometry]: Odom: ratio=0.651014, std dev=0.066700m|0.021093rad, update time=0.134000s
+[bt_navigator-8] [WARN] [1765659182.865752077] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[icp_odometry-1] [INFO] [1765659182.962006379] [icp_odometry]: Odom: ratio=0.650497, std dev=0.066582m|0.021055rad, update time=0.122000s
+[icp_odometry-1] [INFO] [1765659183.833170336] [icp_odometry]: Odom: ratio=0.651192, std dev=0.067207m|0.021253rad, update time=0.095000s
+[planner_server-6] [WARN] [1765659183.920576341] [planner_server]: GridBased plugin failed to plan from (9.30, -0.30) to (16.02, 0.14): "no valid path found"
+[planner_server-6] [WARN] [1765659183.920746123] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1765659183.942908586] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1765659183.943500721] [behavior_server]: Turning 1.57 for spin behavior.
+[icp_odometry-1] [INFO] [1765659184.494720451] [icp_odometry]: Odom: ratio=0.651609, std dev=0.067022m|0.021194rad, update time=0.050000s
+[rtabmap-2] [INFO] [1765659184.547224181] [rtabmap]: rtabmap (29): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=0.0499s, Maps update=0.0003s pub=0.0006s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659185.127951165] [icp_odometry]: Odom: ratio=0.650373, std dev=0.066604m|0.021062rad, update time=0.057000s
+[icp_odometry-1] [INFO] [1765659185.671817944] [icp_odometry]: Odom: ratio=0.652499, std dev=0.066857m|0.021142rad, update time=0.065000s
+[icp_odometry-1] [INFO] [1765659186.225400281] [icp_odometry]: Odom: ratio=0.649662, std dev=0.067009m|0.021190rad, update time=0.074000s
+[icp_odometry-1] [INFO] [1765659186.903332956] [icp_odometry]: Odom: ratio=0.651370, std dev=0.066783m|0.021119rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659187.559064950] [icp_odometry]: Odom: ratio=0.654749, std dev=0.067233m|0.021261rad, update time=0.047000s
+[icp_odometry-1] [INFO] [1765659188.200590664] [icp_odometry]: Odom: ratio=0.653867, std dev=0.067152m|0.021235rad, update time=0.056000s
+[rtabmap-2] [INFO] [1765659188.268898614] [rtabmap]: rtabmap (30): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0654s, Maps update=0.0004s pub=0.0008s (local map=20, WM=20)
+[rviz2-12] Start navigation
+[rviz2-12] [INFO] [1765659188.634787512] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[bt_navigator-8] [INFO] [1765659188.640706803] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1765659188.641176446] [bt_navigator]: Begin navigating from current location (9.30, -0.30) to (17.06, 0.20)
+[icp_odometry-1] [INFO] [1765659188.844731984] [icp_odometry]: Odom: ratio=0.647822, std dev=0.066375m|0.020990rad, update time=0.046000s
+[icp_odometry-1] [INFO] [1765659189.448864304] [icp_odometry]: Odom: ratio=0.648481, std dev=0.066492m|0.021026rad, update time=0.127000s
+[icp_odometry-1] [INFO] [1765659189.981828719] [icp_odometry]: Odom: ratio=0.652731, std dev=0.066363m|0.020986rad, update time=0.057000s
+[icp_odometry-1] [INFO] [1765659190.604574703] [icp_odometry]: Odom: ratio=0.650737, std dev=0.066375m|0.020989rad, update time=0.125000s
+[icp_odometry-1] [INFO] [1765659191.225173909] [icp_odometry]: Odom: ratio=0.652197, std dev=0.066683m|0.021087rad, update time=0.050000s
+[icp_odometry-1] [INFO] [1765659191.886992452] [icp_odometry]: Odom: ratio=0.652019, std dev=0.067374m|0.021305rad, update time=0.076000s
+[rtabmap-2] [INFO] [1765659191.969681528] [rtabmap]: rtabmap (31): Rate=1.00s, Limit=0.000s, Conversion=0.0010s, RTAB-Map=0.0784s, Maps update=0.0005s pub=0.0011s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659192.487207401] [icp_odometry]: Odom: ratio=0.654277, std dev=0.067198m|0.021250rad, update time=0.059000s
+[icp_odometry-1] [INFO] [1765659193.106356028] [icp_odometry]: Odom: ratio=0.654044, std dev=0.066792m|0.021121rad, update time=0.049000s
+[icp_odometry-1] [INFO] [1765659193.731642636] [icp_odometry]: Odom: ratio=0.654277, std dev=0.067398m|0.021313rad, update time=0.053000s
+[behavior_server-7] [WARN] [1765659193.943847272] [behavior_server]: Exceeded time allowance before reaching the Spin goal - Exiting Spin
+[behavior_server-7] [WARN] [1765659193.943977920] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1765659193.944023277] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1765659193.961963365] [behavior_server]: Running wait
+[bt_navigator-8] [WARN] [1765659194.451739994] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[icp_odometry-1] [INFO] [1765659194.578401920] [icp_odometry]: Odom: ratio=0.649956, std dev=0.066812m|0.021128rad, update time=0.114000s
+[icp_odometry-1] [INFO] [1765659195.199476007] [icp_odometry]: Odom: ratio=0.652731, std dev=0.066319m|0.020972rad, update time=0.101000s
+[icp_odometry-1] [INFO] [1765659195.869255493] [icp_odometry]: Odom: ratio=0.652738, std dev=0.067111m|0.021222rad, update time=0.047000s
+[rtabmap-2] [INFO] [1765659195.963648536] [rtabmap]: rtabmap (32): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=0.0879s, Maps update=0.0009s pub=0.0013s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659196.581585268] [icp_odometry]: Odom: ratio=0.650720, std dev=0.066767m|0.021113rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659197.118463593] [icp_odometry]: Odom: ratio=0.651262, std dev=0.067408m|0.021316rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659197.689637045] [icp_odometry]: Odom: ratio=0.651779, std dev=0.067714m|0.021413rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659198.223376278] [icp_odometry]: Odom: ratio=0.653730, std dev=0.068502m|0.021662rad, update time=0.000000s
+[icp_odometry-1] [INFO] [1765659198.785247053] [icp_odometry]: Odom: ratio=0.653156, std dev=0.067756m|0.021426rad, update time=0.078000s
+[rtabmap-2] [INFO] [1765659198.826611737] [rtabmap]: rtabmap (33): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0391s, Maps update=0.0003s pub=0.0005s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659199.380779694] [icp_odometry]: Odom: ratio=0.652444, std dev=0.068275m|0.021590rad, update time=0.068000s
+[icp_odometry-1] [INFO] [1765659199.952518300] [icp_odometry]: Odom: ratio=0.653860, std dev=0.068041m|0.021516rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659200.553615553] [icp_odometry]: Odom: ratio=0.653381, std dev=0.067537m|0.021357rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659201.211743389] [icp_odometry]: Odom: ratio=0.655221, std dev=0.068321m|0.021605rad, update time=0.113000s
+[icp_odometry-1] [INFO] [1765659201.834261964] [icp_odometry]: Odom: ratio=0.655467, std dev=0.067498m|0.021345rad, update time=0.081000s
+[rtabmap-2] [INFO] [1765659201.890569962] [rtabmap]: rtabmap (34): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=0.0533s, Maps update=0.0006s pub=0.0012s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659202.458230308] [icp_odometry]: Odom: ratio=0.652383, std dev=0.067682m|0.021403rad, update time=0.053000s
+[icp_odometry-1] [INFO] [1765659203.375955568] [icp_odometry]: Odom: ratio=0.655172, std dev=0.068154m|0.021552rad, update time=0.083000s
+[icp_odometry-1] [INFO] [1765659203.979964520] [icp_odometry]: Odom: ratio=0.652437, std dev=0.067469m|0.021335rad, update time=0.075000s
+[rviz2-12] Start navigation
+[rviz2-12] [INFO] [1765659204.481383596] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[bt_navigator-8] [INFO] [1765659204.490700686] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1765659204.491191679] [bt_navigator]: Begin navigating from current location (9.30, -0.30) to (15.92, -0.61)
+[icp_odometry-1] [INFO] [1765659204.604971419] [icp_odometry]: Odom: ratio=0.656117, std dev=0.068240m|0.021579rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659205.188616219] [icp_odometry]: Odom: ratio=0.655093, std dev=0.067549m|0.021361rad, update time=0.113000s
+[rtabmap-2] [INFO] [1765659205.257638295] [rtabmap]: rtabmap (35): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0666s, Maps update=0.0005s pub=0.0007s (local map=20, WM=20)
+[icp_odometry-1] [INFO] [1765659205.811439813] [icp_odometry]: Odom: ratio=0.655160, std dev=0.068260m|0.021586rad, update time=0.054000s
+[icp_odometry-1] [INFO] [1765659206.409168149] [icp_odometry]: Odom: ratio=0.655977, std dev=0.068251m|0.021583rad, update time=0.081000s
+[icp_odometry-1] [INFO] [1765659207.171661502] [icp_odometry]: Odom: ratio=0.652390, std dev=0.068199m|0.021566rad, update time=0.090000s
+[icp_odometry-1] [INFO] [1765659207.848391991] [icp_odometry]: Odom: ratio=0.656167, std dev=0.068166m|0.021556rad, update time=0.038000s
+[icp_odometry-1] [INFO] [1765659208.543046424] [icp_odometry]: Odom: ratio=0.656345, std dev=0.067849m|0.021456rad, update time=0.049000s
+[icp_odometry-1] [INFO] [1765659209.181949437] [icp_odometry]: Odom: ratio=0.654982, std dev=0.067560m|0.021364rad, update time=0.052000s
+[rtabmap-2] [INFO] [1765659209.251118625] [rtabmap]: rtabmap (36): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0659s, Maps update=0.0006s pub=0.0011s (local map=20, WM=20)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[rviz2-12] [INFO] [1765659209.547081175] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1765659209.547189571] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1765659209.548024237] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-5] [INFO] [1765659209.548198429] [smoother_server]: Deactivating
+[smoother_server-5] [INFO] [1765659209.548234738] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[planner_server-6] [INFO] [1765659209.547196123] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1765659209.547447621] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-6] [INFO] [1765659209.547631250] [planner_server]: Deactivating
+[planner_server-6] [INFO] [1765659209.547701915] [global_costmap.global_costmap]: Deactivating
+[lifecycle_manager-11] [INFO] [1765659209.547225559] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-11] [INFO] [1765659209.547757040] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-11] [INFO] [1765659209.548015290] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[controller_server-4] [INFO] [1765659209.547272949] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1765659209.547447181] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-4] [INFO] [1765659209.547631401] [controller_server]: Deactivating
+[controller_server-4] [INFO] [1765659209.547711754] [MPPIController]: Deactivated MPPI Controller: FollowPath
+[controller_server-4] [INFO] [1765659209.547740278] [local_costmap.local_costmap]: Deactivating
+[behavior_server-7] [INFO] [1765659209.547357530] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1765659209.547659344] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-7] [INFO] [1765659209.547821001] [behavior_server]: Deactivating
+[behavior_server-7] [WARN] [1765659209.547895763] [behavior_server]: [wait] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[waypoint_follower-9] [INFO] [1765659209.547376406] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1765659209.547688359] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-9] [INFO] [1765659209.547871728] [waypoint_follower]: Deactivating
+[waypoint_follower-9] [INFO] [1765659209.547924788] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[icp_odometry-1] [INFO] [1765659209.547395292] [rclcpp]: signal_handler(signum=2)
+[rtabmap-2] [INFO] [1765659209.547490914] [rclcpp]: signal_handler(signum=2)
+[rtabmap_viz-3] [INFO] [1765659209.547665736] [rtabmap_viz]: rtabmap_viz stopping spinner...
+[velocity_smoother-10] [INFO] [1765659209.548110481] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1765659209.548318787] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-10] [INFO] [1765659209.548506214] [velocity_smoother]: Deactivating
+[velocity_smoother-10] [INFO] [1765659209.548590153] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1765659209.559100341] [velocity_smoother]: Cleaning up
+[velocity_smoother-10] [INFO] [1765659209.559255386] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[bt_navigator-8] [INFO] [1765659209.547432302] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1765659209.549092548] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-8] [INFO] [1765659209.549932515] [bt_navigator]: Deactivating
+[bt_navigator-8] [WARN] [1765659209.550342183] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[bt_navigator-8] [INFO] [1765659209.566646535] [bt_navigator]: Goal canceled
+[bt_navigator-8] [WARN] [1765659209.567687103] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-8] [WARN] [1765659209.568048330] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[bt_navigator-8] [INFO] [1765659209.569642279] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[rtabmap_viz-3] [INFO] [1765659209.552271982] [rtabmap_viz]: rtabmap_viz: All done! Closing...
+[waypoint_follower-9] [INFO] [1765659209.558913887] [waypoint_follower]: Cleaning up
+[smoother_server-5] [INFO] [1765659209.559323946] [smoother_server]: Cleaning up
+[behavior_server-7] [INFO] [1765659209.564331955] [behavior_server]: Canceling wait
+[behavior_server-7] [WARN] [1765659209.564657144] [LifecyclePublisher]: Trying to publish message on the topic '/cmd_vel', but the publisher is not activated
+[behavior_server-7] [WARN] [1765659209.564770279] [behavior_server]: [wait] [ActionServer] Client requested to cancel the goal. Cancelling.
+[behavior_server-7] [WARN] [1765659209.565487081] [behavior_server]: [wait] [ActionServer] Stopping the thread per request.
+[behavior_server-7] [INFO] [1765659209.567638821] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-7] [INFO] [1765659209.583993548] [behavior_server]: Cleaning up
+[bt_navigator-8] [INFO] [1765659209.583941089] [bt_navigator]: Cleaning up
+[velocity_smoother-10] [INFO] [1765659209.588073193] [velocity_smoother]: Destroying
+[controller_server-4] [INFO] [1765659209.591510286] [controller_server]: Optimizer reset
+[controller_server-4] [INFO] [1765659209.591667475] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[rtabmap-2] [INFO] [1765659209.599803881] [rtabmap]: Parameters are not saved (No configuration file provided...)
+[controller_server-4] [INFO] [1765659209.603814795] [controller_server]: Cleaning up
+[controller_server-4] [INFO] [1765659209.604148509] [MPPIController]: Cleaned up MPPI Controller: FollowPath
+[controller_server-4] [INFO] [1765659209.606061876] [local_costmap.local_costmap]: Cleaning up
+[smoother_server-5] [INFO] [1765659209.649159687] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1765659209.651700036] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[rviz2-12] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+[rviz2-12]   what():  failed to create guard condition: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67
+[smoother_server-5] [INFO] [1765659209.677051725] [smoother_server]: Destroying
+[waypoint_follower-9] [INFO] [1765659209.716264431] [waypoint_follower]: Destroying
+[behavior_server-7] [INFO] [1765659209.736497821] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[INFO] [velocity_smoother-10]: process has finished cleanly [pid 62830]
+[behavior_server-7] [INFO] [1765659209.862935756] [behavior_server]: Destroying
+[lifecycle_manager-11] [INFO] [1765659209.882500525] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[planner_server-6] [INFO] [1765659209.949823353] [planner_server]: Deactivating plugin GridBased of type SmacPlannerHybrid
+[planner_server-6] [INFO] [1765659209.949984660] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1765659209.960480190] [planner_server]: Cleaning up
+[controller_server-4] [INFO] [1765659209.966197588] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1765659210.010084288] [local_costmap.local_costmap]: Destroying
+[INFO] [smoother_server-5]: process has finished cleanly [pid 62820]
+[INFO] [waypoint_follower-9]: process has finished cleanly [pid 62828]
+[planner_server-6] [INFO] [1765659210.095933442] [global_costmap.global_costmap]: Cleaning up
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 62833]
+[planner_server-6] [INFO] [1765659210.167465562] [planner_server]: Cleaning up plugin GridBased of type SmacPlannerHybrid
+[controller_server-4] [INFO] [1765659210.176403071] [controller_server]: Destroying
+[INFO] [icp_odometry-1]: process has finished cleanly [pid 62812]
+[INFO] [behavior_server-7]: process has finished cleanly [pid 62824]
+[planner_server-6] [INFO] [1765659210.224746232] [planner_server]: Destroying plugin GridBased of type SmacPlannerHybrid
+[planner_server-6] [INFO] [1765659210.303233262] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1765659210.323870069] [global_costmap.global_costmap]: Destroying
+[planner_server-6] [INFO] [1765659210.369663224] [planner_server]: Destroying
+[INFO] [controller_server-4]: process has finished cleanly [pid 62818]
+[bt_navigator-8] [INFO] [1765659210.441337344] [bt_navigator]: Completed Cleaning up
+[bt_navigator-8] [INFO] [1765659210.441496626] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[ERROR] [rviz2-12]: process has died [pid 62835, exit code -6, cmd '/opt/ros/iron/lib/rviz2/rviz2 -d /opt/ros/iron/share/nav2_bringup/rviz/nav2_default_view.rviz --ros-args'].
+[bt_navigator-8] [INFO] [1765659210.478161800] [bt_navigator]: Destroying
+[INFO] [planner_server-6]: process has finished cleanly [pid 62822]
+[ERROR] [rtabmap_viz-3]: process has died [pid 62816, exit code 255, cmd '/opt/ros/iron/lib/rtabmap_viz/rtabmap_viz --ros-args --params-file /tmp/launch_params_p65gdx1e -r scan_cloud:=odom_filtered_input_scan'].
+[INFO] [bt_navigator-8]: process has finished cleanly [pid 62826]
+[rtabmap-2] rtabmap: Saving database/long-term memory... (located at /root/.ros/rtabmap.db)
+[rtabmap-2] rtabmap: 2D occupancy grid map saved.
+[rtabmap-2] rtabmap: Saving database/long-term memory...done! (located at /root/.ros/rtabmap.db, 3 MB)
+[INFO] [rtabmap-2]: process has finished cleanly [pid 62814]

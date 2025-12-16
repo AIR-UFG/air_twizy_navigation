@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     python3-pip \
     python3-rosdep \
+    ros-iron-rtabmap* \
     ros-iron-gazebo-ros \
     ros-iron-gazebo-dev \
     ros-iron-gazebo-plugins \
@@ -28,7 +29,7 @@ COPY ./ros_packages /home/nav/ros2_ws/src/
 
 RUN /bin/bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash \ 
                   && apt-get update && cd /home/nav/ros2_ws && rosdep install --from-paths src --ignore-src -r -y \
-                  && colcon build --packages-ingore nav2_costmap_2d \
+                  && colcon build --packages-ignore nav2_costmap_2d \
                   && MAKEFLAGS='-j2' colcon build --packages-select nav2_costmap_2d"
 
 RUN mkdir -p /root/.gazebo/models \
