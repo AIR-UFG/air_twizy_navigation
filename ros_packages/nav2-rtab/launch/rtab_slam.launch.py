@@ -21,7 +21,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    real_agr = DeclareLaunchArgument(
+    real_arg = DeclareLaunchArgument(
         'real',
         default_value='false',
         description='whether to use in sim or real context'
@@ -155,6 +155,10 @@ def generate_launch_description():
     
     # Create the launch description and populate
     ld = LaunchDescription()
+
+    # Robot state publisher
+    ld.add_action(real_arg)
+    ld.add_action(robot_state_publisher_node)
 
     #RTAB launch
     ld.add_action(rtabmap_odom)
