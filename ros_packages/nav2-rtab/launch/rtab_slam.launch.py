@@ -6,11 +6,12 @@ para o nav2. Baseado no yaml que ja temos como exemplo implementado
 
 """
 import os
+import xacro
 
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.conditions import IfCondition
@@ -20,8 +21,27 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
+    real_agr = DeclareLaunchArgument(
+        'real',
+        default_value='false',
+        description='whether to use in sim or real context'
+    )
+
     dir_shared_path = get_package_share_directory("nav2-rtab")
     rviz_file = os.path.join(dir_shared_path, 'config', 'slam_view.rviz')
+
+    description_share_path = get_package_share_directory('air_description')
+    xacro_file = os.path.join(description_share_path, 'urdf', 'sd_twizy.urdf.xacro')
+    robot_description_config = xacro.process_file(xacro_file)
+    robot_urdf = robot_description_config.toxml()
+
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        parameters=[{'robot_description': robot_urdf}],
+        condition=IfCondition(LaunchConfiguration('real'))
+    )
   
     rtabmap_odom = Node(
         package='rtabmap_odom', executable='icp_odometry', output='screen',
